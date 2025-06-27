@@ -15,12 +15,15 @@ h1 {
     font-style: italic;
 }
 
-#start-btn {
-    background-color: goldenrod;
-    padding: 10px 40px 10px 40px;
+#start-btn, #newCard-btn {
+    background: goldenrod;
+    color: #016f32;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-weight: bold;
-    font-size: x-large;
-    border-radius: 5px;
     border: none;
-    color: #015527;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    font-size: x-large;
 }
