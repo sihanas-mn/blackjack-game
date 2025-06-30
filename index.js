@@ -1,3 +1,9 @@
+// player object details here
+let player = {
+    name: "Sihanas",
+    chips: 156
+}
+
 let cards = []
 let sum = 0
 let hasBlackJack = false
@@ -7,12 +13,7 @@ let messageEl = document.getElementById("message-el");
 let sumEl = document.getElementById("sum-el");
 let cardsEl = document.getElementById("cards-el");
 
-let player = {
-    name: "Sihanas",
-    chips: 145
-}
-
-playerEl = document.getElementById("player-el")
+let playerEl = document.getElementById("player-el")
 playerEl.textContent = player.name + ": " + "$" + player.chips
 
 //generate random card
